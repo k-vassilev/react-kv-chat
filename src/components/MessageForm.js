@@ -6,6 +6,13 @@ const MessageForm = (props) => {
 	const [value, setValue] = useState('');
 	const { chatId, creds } = props;
 
+	const logoutClick = () => {
+		let confirmation = window.confirm("Are you sure you want to log out?");
+		if (confirmation) {
+			localStorage.clear();
+			window.location.reload();
+		}
+	}
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -27,6 +34,7 @@ const MessageForm = (props) => {
 	}
 
 	return(
+		<>
 		<form className="message-form" onSubmit={handleSubmit}>
 			<input
 				className="message-input"
@@ -51,6 +59,10 @@ const MessageForm = (props) => {
 				<SendOutlined className="send-icon"/>
 			</button>
 		</form>
+			<button className="send-button logout" onClick={logoutClick}>
+			  LOGOUT
+	   		</button>
+		</>
 	);
 }
 
