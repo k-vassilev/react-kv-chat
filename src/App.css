@@ -158,6 +158,8 @@
     width: calc(100% - 36px);
     padding: 18px;
     background-color: rgb(240, 240, 240);
+	display: flex;
+	justify-content: space-between;
   }
   
   .message-form {
@@ -165,6 +167,7 @@
     border-radius: 6px;
     border: 1px solid #3b2a50;
     background-color: white;
+	width: 80%;
   }
   
   .message-input {
@@ -299,4 +302,5 @@
     margin-top: 10px;
     background-color: black;
     color: white;
+	border-radius: 10px;
   }
