@@ -1,5 +1,5 @@
-#React KV Chat App#
-##The app is created with https://chatengine.io/##
+# React KV Chat App #
+## The app is created with https://chatengine.io/ ##
 
 ## To try the app locally: ##
 
@@ -19,10 +19,10 @@ npm start
 ## To check a live version of the app, please go to... ##
 
 ## The following users and passwords can be used to login to the app: ##
-### Credentials for User1 ###
+## Credentials for User1 ##
 ### Username1: User ###
 ### Password1: demo123 ###
 
-### Credenetials for User2 ###
+## Credenetials for User2 ##
 ### Username1: User2 ###
 ### Password1: demo123 ###
