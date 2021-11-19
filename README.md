@@ -16,7 +16,7 @@ npm i
 npm start
 ```
 
-## To check a live version of the app, please go to... ##
+## To check a live version of the app, please go to https://kv-chat-app.netlify.app/ ##
 
 ## The following users and passwords can be used to login to the app: ##
 ## Credentials for User1 ##
